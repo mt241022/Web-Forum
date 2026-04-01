@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Jersey;
+    src: url(../fonts/Jersey_10/Jersey10-Regular.ttf);
+}
+
+@font-face{
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: PoppinsSemibold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+h1{
+    font-size: 4em;
+    font-family: Jersey, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    font-family: PoppinsSemibold, sans-serif;
+}
+
+h3{
+    font-size: 1em;
+    font-family: PoppinsSemibold, sans-serif;
+}
+
+p{
+    font-size: 0.9em;
+    font-family: PoppinsRegular, sans-serif;
+    font-weight: 50;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.semibold-text {
+    font-family: PoppinsSemibold, sans-serif;
+    font-size: 0.7em;
+}
+
+a{
+    font-family: PoppinsRegular, sans-serif;
+    font-weight: 50;
+}
+
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body.startseite{
+    background-image: url('../images/hg-startseite.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px
+}
+
+.login-box, .register-box{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.forum-header{
+    background-image: url('../images/forum-header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+}
+
+.thread-header{
+    background-image: url('../images/thread-header.jpg');
+    background-size: cover;
+    max-height: 150px;
+    background-position: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.zuruecklink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+
+.thread-container{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.thread-container h3 a {
+    text-decoration: none;
+    color: black;
+}
+.thread-container hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.message-container{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.new-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.message-container hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin: 0px;
+}
+
+.message-container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logout-button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="password"]{
+    padding:10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+input[type="submit"]{
+color: black;
+font-size: 0.8em;
+padding: 10px 20px;
+border: 1px solid black;
+border-radius: 50px;
+cursor: pointer;
+background-color: white;
+}
